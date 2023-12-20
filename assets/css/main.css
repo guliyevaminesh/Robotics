@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  z-index: 1;
+}
+header nav {
+  width: 90%;
+  margin: auto;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+#ImprovedRobots {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/img/banner-bg\ \(1\).jpg);
+  background-size: cover;
+  padding-top: 30px;
+}
+#ImprovedRobots .ImprovedRobotscontainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  margin-top: 30px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+#ImprovedRobots .ImprovedRobotscontainer .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+#ImprovedRobots .ImprovedRobotscontainer .row h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 400;
+}
+#ImprovedRobots .ImprovedRobotscontainer .row img {
+  max-width: 100%;
+  height: 375px;
+}
+#ImprovedRobots .ImprovedRobotscontainer .row p {
+  color: white;
+}
+#ImprovedRobots .ImprovedRobotscontainer .row button {
+  border: none;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+}
+#ImprovedRobots .ImprovedRobotscontainer .row button:hover {
+  background-color: #A391FF;
+  color: white;
+  border: 1px solid white;
+}
+
+#FeaturedRobotics {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+#FeaturedRobotics .FeaturedRoboticscontainer {
+  width: 85%;
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#FeaturedRobotics .FeaturedRoboticscontainer .row {
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#FeaturedRobotics .FeaturedRoboticscontainer .row img {
+  width: 108px;
+  height: 180px;
+}
+#FeaturedRobotics .FeaturedRoboticscontainer .row .FeaturedRoboticstext {
+  width: 190px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#FeaturedRobotics .FeaturedRoboticscontainer .row .FeaturedRoboticstext button {
+  border: none;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  cursor: pointer;
+}
+#FeaturedRobotics .FeaturedRoboticscontainer .row .FeaturedRoboticstext button:hover {
+  background-color: #A391FF;
+  color: white;
+  border: 1px solid white;
+}
+
+#GloballyNetwork {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+#GloballyNetwork .GloballyNetworkcontainer {
+  width: 85%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#GloballyNetwork .GloballyNetworkcontainer .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#GloballyNetwork .GloballyNetworkcontainer .row img {
+  max-width: 100%;
+  height: 341px;
+  padding-top: 10px;
+}
+#GloballyNetwork .GloballyNetworkcontainer .row div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+#GloballyNetwork .GloballyNetworkcontainer .row div h1 {
+  font-size: 50px;
+}
+#GloballyNetwork .GloballyNetworkcontainer .row div h6 {
+  color: #A391FF;
+  font-weight: 300;
+}
+#GloballyNetwork .GloballyNetworkcontainer .row div button {
+  border: none;
+  width: 150px;
+  height: 40px;
+  background-color: #A391FF;
+  color: white;
+  cursor: pointer;
+}
+#GloballyNetwork .GloballyNetworkcontainer .row div button:hover {
+  background-color: white;
+  color: #A391FF;
+  border: 1px solid #A391FF;
+}
+
+#SomeFeatures {
+  width: 100%;
+  background-image: url(/assets/img/feature-bg.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+#SomeFeatures .SomeFeaturescontainer {
+  width: 80%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#SomeFeatures .SomeFeaturescontainer .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#SomeFeatures .SomeFeaturescontainer .row .SomeFeaturestext {
+  text-align: center;
+  color: white;
+}
+#SomeFeatures .SomeFeaturescontainer .row .SomeFeaturesIcons {
+  width: 330px;
+  background-color: white;
+  margin-top: 20px;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+#SomeFeatures .SomeFeaturescontainer .row .SomeFeaturestechnicians {
+  display: flex;
+  gap: 10px;
+}
+#SomeFeatures .SomeFeaturescontainer .row .SomeFeaturestechnicians p {
+  font-weight: bold;
+  font-size: 20px;
+}
+#SomeFeatures .SomeFeaturescontainer .row .SomeFeaturestechnicians:hover {
+  color: #A391FF;
+}
+
+#Brands {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+#Brands .Brandscontainer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+#Brands .Brandscontainer div {
+  width: 16%;
+}
+#Brands .Brandscontainer div img {
+  max-width: 100%;
+}
+
+#LatestNews {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+#LatestNews .LatestNewscontainer {
+  width: 90%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#LatestNews .LatestNewscontainer .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#LatestNews .LatestNewscontainer .row .SomeFeaturestext {
+  text-align: center;
+  color: white;
+}
+#LatestNews .LatestNewscontainer .row .LatestNewsButton {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+#LatestNews .LatestNewscontainer .row .LatestNewsButton button {
+  border: none;
+  background-color: #A391FF;
+  width: 80px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+#LatestNews .LatestNewscontainer .row .LatestNewsButton button:hover {
+  background-color: white;
+  color: #A391FF;
+  border: 1px solid #A391FF;
+}
+#LatestNews .LatestNewscontainer .row .SomeFeaturesimg {
+  width: 80%;
+  margin-bottom: 10px;
+}
+#LatestNews .LatestNewscontainer .row .SomeFeaturesimg img {
+  max-width: 100%;
+}
+
+#TopProducts {
+  width: 100%;
+  height: 200px;
+  background-image: url(/assets/img/footer-bg.jpg);
+  background-size: cover;
+}
